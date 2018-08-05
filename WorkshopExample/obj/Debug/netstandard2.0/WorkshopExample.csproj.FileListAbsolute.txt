@@ -1,0 +1,4 @@
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\obj\Debug\netstandard2.0\WorkshopExample.csprojAssemblyReference.cache
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\obj\Debug\netstandard2.0\WorkshopExample.csproj.CoreCompileInputs.cache
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\obj\Debug\netstandard2.0\WorkshopExample.AssemblyInfoInputs.cache
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\obj\Debug\netstandard2.0\WorkshopExample.AssemblyInfo.cs

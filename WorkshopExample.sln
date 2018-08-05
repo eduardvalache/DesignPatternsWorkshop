@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkshopSnippets", "WorkshopExample\WorkshopSnippets.csproj", "{C19B83A1-6735-4CE0-A0AB-4AD01CE09868}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelApp.API", "MarvelApp\MarvelApp.API\MarvelApp.API.csproj", "{B1B9ABC9-A8D4-4BE4-8B4B-9B36EE0E5BF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MarvelApp", "MarvelApp", "{23BA67BE-3746-400D-B218-8F98E01EDECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelApp.Business", "MarvelApp.Business\MarvelApp.Business.csproj", "{2629DD8B-0030-4017-B033-3FDDA1043053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelApp.Business.Contracts", "MarvelApp.Business.Contracts\MarvelApp.Business.Contracts.csproj", "{9555031F-C463-4EA1-817C-E103E3F65DDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelApp.Domain", "MarvelApp.Domain\MarvelApp.Domain.csproj", "{197BDAF3-FD2A-4354-8185-9AAE778A9DD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelApp.DomainServices", "MarvelApp.DomainServices\MarvelApp.DomainServices.csproj", "{CCCD10E0-B45D-45A7-A6ED-9075FAB273DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarvelApp.DataAccess", "MarvelApp.DataAccess\MarvelApp.DataAccess.csproj", "{2BD71BBC-3780-4480-8CBB-3AEDC5053F09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C19B83A1-6735-4CE0-A0AB-4AD01CE09868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19B83A1-6735-4CE0-A0AB-4AD01CE09868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19B83A1-6735-4CE0-A0AB-4AD01CE09868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19B83A1-6735-4CE0-A0AB-4AD01CE09868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1B9ABC9-A8D4-4BE4-8B4B-9B36EE0E5BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1B9ABC9-A8D4-4BE4-8B4B-9B36EE0E5BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1B9ABC9-A8D4-4BE4-8B4B-9B36EE0E5BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1B9ABC9-A8D4-4BE4-8B4B-9B36EE0E5BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2629DD8B-0030-4017-B033-3FDDA1043053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2629DD8B-0030-4017-B033-3FDDA1043053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2629DD8B-0030-4017-B033-3FDDA1043053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2629DD8B-0030-4017-B033-3FDDA1043053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9555031F-C463-4EA1-817C-E103E3F65DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9555031F-C463-4EA1-817C-E103E3F65DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9555031F-C463-4EA1-817C-E103E3F65DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9555031F-C463-4EA1-817C-E103E3F65DDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197BDAF3-FD2A-4354-8185-9AAE778A9DD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197BDAF3-FD2A-4354-8185-9AAE778A9DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197BDAF3-FD2A-4354-8185-9AAE778A9DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197BDAF3-FD2A-4354-8185-9AAE778A9DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCD10E0-B45D-45A7-A6ED-9075FAB273DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCD10E0-B45D-45A7-A6ED-9075FAB273DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCD10E0-B45D-45A7-A6ED-9075FAB273DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCD10E0-B45D-45A7-A6ED-9075FAB273DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD71BBC-3780-4480-8CBB-3AEDC5053F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD71BBC-3780-4480-8CBB-3AEDC5053F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD71BBC-3780-4480-8CBB-3AEDC5053F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD71BBC-3780-4480-8CBB-3AEDC5053F09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1B9ABC9-A8D4-4BE4-8B4B-9B36EE0E5BF8} = {23BA67BE-3746-400D-B218-8F98E01EDECD}
+		{2629DD8B-0030-4017-B033-3FDDA1043053} = {23BA67BE-3746-400D-B218-8F98E01EDECD}
+		{9555031F-C463-4EA1-817C-E103E3F65DDD} = {23BA67BE-3746-400D-B218-8F98E01EDECD}
+		{197BDAF3-FD2A-4354-8185-9AAE778A9DD8} = {23BA67BE-3746-400D-B218-8F98E01EDECD}
+		{CCCD10E0-B45D-45A7-A6ED-9075FAB273DC} = {23BA67BE-3746-400D-B218-8F98E01EDECD}
+		{2BD71BBC-3780-4480-8CBB-3AEDC5053F09} = {23BA67BE-3746-400D-B218-8F98E01EDECD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68986C0B-1B33-4E9D-B19B-7541C3CADF29}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs-gda/tfs/centric
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MarvelApp.Business.Contracts\\MarvelApp.Business.Contracts.csproj
+		SccProjectTopLevelParentUniqueName1 = WorkshopExample.sln
+		SccProjectName1 = MarvelApp.Business.Contracts
+		SccLocalPath1 = MarvelApp.Business.Contracts
+		SccProjectUniqueName2 = MarvelApp.Business\\MarvelApp.Business.csproj
+		SccProjectTopLevelParentUniqueName2 = WorkshopExample.sln
+		SccProjectName2 = MarvelApp.Business
+		SccLocalPath2 = MarvelApp.Business
+		SccProjectUniqueName3 = MarvelApp.DataAccess\\MarvelApp.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName3 = WorkshopExample.sln
+		SccProjectName3 = MarvelApp.DataAccess
+		SccLocalPath3 = MarvelApp.DataAccess
+		SccProjectUniqueName4 = MarvelApp.Domain\\MarvelApp.Domain.csproj
+		SccProjectTopLevelParentUniqueName4 = WorkshopExample.sln
+		SccProjectName4 = MarvelApp.Domain
+		SccLocalPath4 = MarvelApp.Domain
+		SccProjectUniqueName5 = MarvelApp.DomainServices\\MarvelApp.DomainServices.csproj
+		SccProjectTopLevelParentUniqueName5 = WorkshopExample.sln
+		SccProjectName5 = MarvelApp.DomainServices
+		SccLocalPath5 = MarvelApp.DomainServices
+		SccProjectUniqueName6 = MarvelApp\\MarvelApp.API\\MarvelApp.API.csproj
+		SccProjectTopLevelParentUniqueName6 = WorkshopExample.sln
+		SccProjectName6 = MarvelApp/MarvelApp.API
+		SccLocalPath6 = MarvelApp\\MarvelApp.API
+		SccProjectUniqueName7 = WorkshopExample\\WorkshopSnippets.csproj
+		SccProjectName7 = WorkshopExample
+		SccLocalPath7 = WorkshopExample
+	EndGlobalSection
+EndGlobal
