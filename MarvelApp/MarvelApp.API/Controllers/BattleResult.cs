@@ -1,8 +1,10 @@
 ﻿using MarvelApp.Business;
 using Microsoft.AspNetCore.Mvc;
+// ReSharper disable InconsistentNaming
 
 namespace MarvelApp.API.Controllers
 {
+    [Route("api/battleResult")]
     public class BattleResult : Controller
     {
         private readonly FightAppService fightAppService;
@@ -15,12 +17,19 @@ namespace MarvelApp.API.Controllers
         [HttpGet]
         public IActionResult Get(string superHero, string villain, int battlegroundId)
         {
-            if (fightAppService.GoodSideWon(superHero, villain, battlegroundId))
-            {
-                return new OkResult();
-            }
+            var winner = fightAppService.GetWinner(superHero, villain, battlegroundId);
+            
+            return new OkObjectResult(winner);
+        }
 
-            return new BadRequestResult();
+        [HttpPost]
+        public IActionResult Add(string winnerAlias)
+        {
+            fightAppService.AddWinner(winnerAlias);
+
+            return new OkResult();
         }
     }
 }
+
+

@@ -1,0 +1,9 @@
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Business.Contracts\bin\Debug\netstandard2.0\MarvelApp.Business.Contracts.deps.json
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Business.Contracts\bin\Debug\netstandard2.0\MarvelApp.Business.Contracts.dll
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Business.Contracts\bin\Debug\netstandard2.0\MarvelApp.Business.Contracts.pdb
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Business.Contracts\obj\Debug\netstandard2.0\MarvelApp.Business.Contracts.csprojAssemblyReference.cache
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Business.Contracts\obj\Debug\netstandard2.0\MarvelApp.Business.Contracts.csproj.CoreCompileInputs.cache
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Business.Contracts\obj\Debug\netstandard2.0\MarvelApp.Business.Contracts.AssemblyInfoInputs.cache
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Business.Contracts\obj\Debug\netstandard2.0\MarvelApp.Business.Contracts.AssemblyInfo.cs
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Business.Contracts\obj\Debug\netstandard2.0\MarvelApp.Business.Contracts.dll
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Business.Contracts\obj\Debug\netstandard2.0\MarvelApp.Business.Contracts.pdb

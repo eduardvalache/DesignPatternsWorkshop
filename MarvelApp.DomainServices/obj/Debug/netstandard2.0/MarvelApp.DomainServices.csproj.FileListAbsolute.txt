@@ -1,0 +1,14 @@
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\bin\Debug\netstandard2.0\MarvelApp.DomainServices.deps.json
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\bin\Debug\netstandard2.0\MarvelApp.DomainServices.dll
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\bin\Debug\netstandard2.0\MarvelApp.DomainServices.pdb
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\bin\Debug\netstandard2.0\MarvelApp.DataAccess.dll
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\bin\Debug\netstandard2.0\MarvelApp.Domain.dll
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\bin\Debug\netstandard2.0\MarvelApp.DataAccess.pdb
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\bin\Debug\netstandard2.0\MarvelApp.Domain.pdb
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\obj\Debug\netstandard2.0\MarvelApp.DomainServices.csprojAssemblyReference.cache
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\obj\Debug\netstandard2.0\MarvelApp.DomainServices.csproj.CoreCompileInputs.cache
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\obj\Debug\netstandard2.0\MarvelApp.DomainServices.AssemblyInfoInputs.cache
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\obj\Debug\netstandard2.0\MarvelApp.DomainServices.AssemblyInfo.cs
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\obj\Debug\netstandard2.0\MarvelApp.DomainServices.csproj.CopyComplete
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\obj\Debug\netstandard2.0\MarvelApp.DomainServices.dll
+C:\@Projects\Internship\WorkshopExample\MarvelApp.DomainServices\obj\Debug\netstandard2.0\MarvelApp.DomainServices.pdb

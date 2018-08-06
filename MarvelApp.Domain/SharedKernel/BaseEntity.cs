@@ -1,7 +1,9 @@
-﻿namespace MarvelApp.Domain
+﻿namespace MarvelApp.Domain.SharedKernel
 {
     public abstract class BaseEntity
     {
-        public string Id { get; protected set; }
+        public int Id { get; protected set; }
+
+        public string Alias { get; protected set; }
     }
 }

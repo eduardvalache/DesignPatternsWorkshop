@@ -1,7 +1,6 @@
-﻿using System;
-using MarvelApp.DataAccess;
-using MarvelApp.Domain;
+﻿using MarvelApp.DataAccess;
 using MarvelApp.DomainServices;
+// ReSharper disable InconsistentNaming
 
 namespace MarvelApp.Business
 {
@@ -11,22 +10,31 @@ namespace MarvelApp.Business
 
         private readonly VillainRepository villainRepository;
 
-        private readonly FightingDomainService fightingDomainService;
+        private readonly FightDomainService fightingDomainService;
 
-        public bool GoodSideWon(string superHeroName, string villainName, int battlegroundId)
+        public FightAppService()
+        {
+            superHeroRepository = new SuperHeroRepository();
+            villainRepository = new VillainRepository();
+            fightingDomainService = new FightDomainService();
+        }
+
+        public string GetWinner(string superHeroName, string villainName, int battlegroundId)
         {
             var superHero = superHeroRepository.GetByAlias(superHeroName);
 
             var villain = villainRepository.GetByAlias(villainName);
 
-            var winner = fightingDomainService.GetIntoFight(superHero, villain, battlegroundId);
+            var winner = fightingDomainService.Fight(superHero, villain, battlegroundId);
 
-            if (winner is SuperHero)
-            {
-                return true;
-            }
+            return winner.Alias;
+        }
 
-            return false;
+        public void AddWinner(string winnerAlias)
+        {
+            var superHero = superHeroRepository.GetByAlias(winnerAlias);
+                   
+            superHero.IncreaseWinnings();
         }
     }
 }

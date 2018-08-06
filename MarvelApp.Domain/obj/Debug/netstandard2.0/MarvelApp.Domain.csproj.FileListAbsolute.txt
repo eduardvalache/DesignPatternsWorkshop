@@ -1,0 +1,9 @@
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Domain\bin\Debug\netstandard2.0\MarvelApp.Domain.deps.json
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Domain\bin\Debug\netstandard2.0\MarvelApp.Domain.dll
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Domain\bin\Debug\netstandard2.0\MarvelApp.Domain.pdb
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Domain\obj\Debug\netstandard2.0\MarvelApp.Domain.csprojAssemblyReference.cache
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Domain\obj\Debug\netstandard2.0\MarvelApp.Domain.csproj.CoreCompileInputs.cache
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Domain\obj\Debug\netstandard2.0\MarvelApp.Domain.AssemblyInfoInputs.cache
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Domain\obj\Debug\netstandard2.0\MarvelApp.Domain.AssemblyInfo.cs
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Domain\obj\Debug\netstandard2.0\MarvelApp.Domain.dll
+C:\@Projects\Internship\WorkshopExample\MarvelApp.Domain\obj\Debug\netstandard2.0\MarvelApp.Domain.pdb

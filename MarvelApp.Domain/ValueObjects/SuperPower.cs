@@ -2,7 +2,7 @@
 {
     public class SuperPower : ValueObject
     {
-        public SuperPower(string name, string category, string power, int strengthClass, int strength)
+        public SuperPower(string name, string category, int strengthClass, int strength)
         {
             Name = name;
             Category = category;
@@ -14,8 +14,13 @@
 
         public string Category { get; }
 
-        public int Strength { get; }
+        public int Strength { get; private set; }
 
         public int StrengthClass { get; }
+
+        public void IncreasePower()
+        {
+            Strength += 50;
+        }
     }
 }

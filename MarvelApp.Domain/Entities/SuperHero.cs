@@ -2,13 +2,21 @@
 using MarvelApp.Domain.SharedKernel;
 using MarvelApp.Domain.ValueObjects;
 
-namespace MarvelApp.Domain
+namespace MarvelApp.Domain.Entities
 {
     public class SuperHero : BaseEntity, IAggregateRoot
     {
-        public string RealName { get; }
+        public SuperHero(string realName, string alias, ICollection<SuperPower> superPowersList)
+        {
+            RealName = realName;
+            SuperPowersList = superPowersList;
+            Alias = alias;
+            Winnings = 0;
+        }
 
-        public string CharacterName { get; }
+        public string RealName { get; }
+        
+        public int Winnings { get; private set; }
 
         public ICollection<SuperPower> SuperPowersList { get; }
 
@@ -24,5 +32,15 @@ namespace MarvelApp.Domain
             return totalPower;
         }
 
+
+        public void IncreaseWinnings()
+        {
+            Winnings += 1;
+
+            foreach (var superPower in SuperPowersList)
+            {
+                superPower.IncreasePower();
+            }
+        }
     }
 }

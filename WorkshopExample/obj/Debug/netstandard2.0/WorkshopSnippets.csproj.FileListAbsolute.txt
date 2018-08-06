@@ -1,0 +1,9 @@
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\bin\Debug\netstandard2.0\WorkshopSnippets.deps.json
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\bin\Debug\netstandard2.0\WorkshopSnippets.dll
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\bin\Debug\netstandard2.0\WorkshopSnippets.pdb
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\obj\Debug\netstandard2.0\WorkshopSnippets.csprojAssemblyReference.cache
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\obj\Debug\netstandard2.0\WorkshopSnippets.csproj.CoreCompileInputs.cache
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\obj\Debug\netstandard2.0\WorkshopSnippets.AssemblyInfoInputs.cache
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\obj\Debug\netstandard2.0\WorkshopSnippets.AssemblyInfo.cs
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\obj\Debug\netstandard2.0\WorkshopSnippets.dll
+C:\@Projects\Internship\WorkshopExample\WorkshopExample\obj\Debug\netstandard2.0\WorkshopSnippets.pdb
